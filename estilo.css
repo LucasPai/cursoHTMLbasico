@@ -71,10 +71,15 @@ p {
 .div_menu {
     width: 600px;
     float: right;
-    text-align: right;
     padding-top: 60px;
-    display: block;
+    display: inline-block;
     font-size: 20px;
+}
+
+.div_menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .div_conteudo {
