@@ -1,77 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <title>Quem Somos</title>
     <meta charset="utf-8">
     <meta="Description" content="Quem somos e o que fazemos na empresa">
-    <meta="Keywords" content="quem-somos, empresa, marcos james">
-    <link href="estilo.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+        <meta="Keywords" content="quem-somos, empresa, marcos james">
+            <link href="estilo.css" rel="stylesheet" type="text/css">
+</head>
 
-      <div class="div_cabecalho"> 
+<body>
+
+    <div class="div_cabecalho">
         <div class="div_container">
             <div class="div_logomarca">
                 <img src="imagens/logomarca_s1.png" alt="Marcos James">
 
-                </div>
+            </div>
             <div class="div_menu">
                 <a href="index.html">Inicial</a>
                 <a href="quem-somos.html">Quem Somos</a>
                 <a href="localizacao.html">Localização</a>
                 <a href="fale-conosco.html">Fale Conosco</a>
                 <a class="botao_compra" href="comprar.html">Comprar</a>
-            </div> 
+            </div>
         </div>
     </div>
 
     <div class="div_conteudo div_container">
-        <p><img src="imagens/banner_s1.jpg" width="100%"></p>
+        <div>
+            <ul>
+                <li>
+                    <span>Dark</span>
+                    <span>Light</span>
+                </li>
+            </ul>
+            <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('ul').click(function () {
+                        $('ul').toggleClass('active')
+                        $('body').toggleClass('dark')
+                    })
+                })
+            </script>
+
+        </div>
+
+        <p>
+            <img src="imagens/banner_s1.jpg" width="100%">
+        </p>
         <h1>Quem Somos</h1>
         <h2>Conheça um pouco mais sobre nossa empresa</h2>
 
 
-        <a href="imagens/foto1.jpg" target="blank">
+        <a href="imagens/foto1.jpg" target="blank"> </a>
         <img id="foto_pia" src="imagens/foto1.jpg" alt="Pia" align="left" hspace="5px" vspace="5px" width="200">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget venenatis nisl, vitae eleifend leo. Morbi et neque tempus, convallis turpis a, varius mi. Maecenas lobortis ullamcorper sollicitudin. Sed sed erat massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum posuere, ligula a lacinia porttitor, tortor lectus ultricies nisi, ut vestibulum sem tortor et sem. Sed quis pharetra sapien, vel maximus massa. Fusce interdum eros quis libero pellentesque bibendum. Nullam non pellentesque purus. Donec ornare aliquet eros in interdum. Praesent cursus efficitur risus convallis efficitur.</p>
-        </a>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget venenatis nisl, vitae eleifend leo. Morbi et
+            neque tempus, convallis turpis a, varius mi. Maecenas lobortis ullamcorper sollicitudin. Sed sed erat massa.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum posuere,
+            ligula a lacinia porttitor, tortor lectus ultricies nisi, ut vestibulum sem tortor et sem. Sed quis pharetra
+            sapien, vel maximus massa. Fusce interdum eros quis libero pellentesque bibendum. Nullam non pellentesque purus.
+            Donec ornare aliquet eros in interdum. Praesent cursus efficitur risus convallis efficitur.</p>
 
-  
+
+
         <a href="imagens/foto2.jpg" target="blank">
-        <img class="div_fotorodape" id="foto_pia" src="imagens/foto2.jpg" alt="Pia" align="right" hspace="5px"  width="200">
-        <p class="div_fotorodape"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget venenatis nisl, vitae eleifend leo. Morbi et neque tempus, convallis turpis a, varius mi. Maecenas lobortis ullamcorper sollicitudin. Sed sed erat massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum posuere, ligula a lacinia porttitor, tortor lectus ultricies nisi, ut vestibulum sem tortor et sem. Sed quis pharetra sapien, vel maximus massa. Fusce interdum eros quis libero pellentesque bibendum. Nullam non pellentesque purus. Donec ornare aliquet eros in interdum. Praesent cursus efficitur risus convallis efficitur.</p>
         </a>
-     
-        
-        
-            </div>
-        
-                <div class="clear"></div>
-
-            </div>
-        
-        
-        
-            <div class="div_rodape div_container">
-            Avenida Dr. Manoel L Soares, 136 - Lot. Parque da Piranha - Ceará - Brasil - CEP 61700-000 <br>
-            3362-3153 61700-000 <br>
-            marcosjames_01@hotmail.com 
-                    
-        
-        
-            </div>
-        
-        
-        
-        
-        
-          </body>
-          </html>
+        <img class="div_fotorodape" id="foto_pia" src="imagens/foto2.jpg" alt="Pia" align="right" hspace="5px" width="200">
+        <p class="div_fotorodape"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget venenatis nisl, vitae eleifend leo. Morbi et
+            neque tempus, convallis turpis a, varius mi. Maecenas lobortis ullamcorper sollicitudin. Sed sed erat massa.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum posuere,
+            ligula a lacinia porttitor, tortor lectus ultricies nisi, ut vestibulum sem tortor et sem. Sed quis pharetra
+            sapien, vel maximus massa. Fusce interdum eros quis libero pellentesque bibendum. Nullam non pellentesque purus.
+            Donec ornare aliquet eros in interdum. Praesent cursus efficitur risus convallis efficitur.</p>
 
 
 
-          
-            
+
+    </div>
+
+    <div class="clear"></div>
+
+    </div>
+
+
+
+    <div class="div_rodape div_container">
+        Avenida Dr. Manoel L Soares, 136 - Lot. Parque da Piranha - Ceará - Brasil - CEP 61700-000
+        <br> 3362-3153 61700-000
+        <br> marcosjames_01@hotmail.com
+
 
 
     </div>
@@ -80,5 +99,22 @@
 
 
 
-  </body>
-  </html>
+</body>
+
+</html>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+
+</html>
