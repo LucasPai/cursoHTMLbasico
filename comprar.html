@@ -1,62 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <title>Marcos James</title>
     <meta charset="utf-8">
     <meta="Description" content="Página inicial">
-    <meta="Keywords" content="site, marmores, granitos, marcos james">
-    <link href="bjqs.css" rel="stylesheet" type="text/css" />
-    <link href="estilo.css" rel="stylesheet" type="text/css">
+        <meta="Keywords" content="site, marmores, granitos, marcos james">
+            <link href="bjqs.css" rel="stylesheet" type="text/css" />
+            <link href="estilo.css" rel="stylesheet" type="text/css">
 
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="js/bjqs-1.3.min.js"></script>
+            <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+            <script src="js/bjqs-1.3.min.js"></script>
+            <script src="js/jquery-3.2.1.min.js"></script>
+            <script src="js/quantidade.js"></script>
 
 
-    <script language="javascript">
-			jQuery(document).ready(function($) {
-				$('#slideshow').bjqs({
-					'height' : 720,
-					'width' : 1360,
-				});
-			});
-		</script>
-    
-    </script>
+            <div class="div_cabecalho">
+                <div class="div_container">
+                    <div class="div_logomarca">
+                        <img src="imagens/logomarca_s1.png" alt="Marcos James">
 
-  </head>
-  <body>
-
-      <div class="div_cabecalho"> 
-        <div class="div_container">
-            <div class="div_logomarca">
-                <img src="imagens/logomarca_s1.png" alt="Marcos James">
-
-                </div>
-            <div class="div_menu">
-                <a href="index.html">Inicial</a>
-                <a href="quem-somos.html">Quem Somos</a>
-                <a href="localizacao.html">Localização</a>
-                <a href="fale-conosco.html">Fale Conosco</a>
-                <a class="botao_compra" href="comprar.html">Comprar</a>
-                </div>
-                
-
-                <div class="btn btn-quantidade" id="quantidade">
-                        <div class="icone" id="quantidade-mais">
-                            <span>+</span>
-                        </div>
-                        <div class="contador">
-                            <span>0</span>
-                        </div>
-                        <div class="icone" id="quantidade-menos">
-                            <span>-</span>
-                        </div>
                     </div>
+                    <div class="div_menu">
+                        <a href="index.html">Inicial</a>
+                        <a href="quem-somos.html">Quem Somos</a>
+                        <a href="localizacao.html">Localização</a>
+                        <a href="fale-conosco.html">Fale Conosco</a>
+                        <a class="botao_compra" href="comprar.html">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div_conteudo div_container">
+
+                <p>
+                    <img src="imagens/banner_s1.jpg" width="100%">
+                </p>
+                <div align="left">
+                    <h1>Compre sua peça:</h1>
+                    <div class="div_tabela">
+                        <table id="tabela_compra">
+                            <tr>
+                                <td class="ce">Peça 1</td>
+                                <td class="ce2">Verde Ubatuba</td>
+                                <td class="cd2">
+
+                                    <div class="btn btn-quantidade" id="quantidade">
+                                        <div class="icone" id="quantidade-mais">
+                                            <span>+</span>
+                                        </div>
+                                        <div class="contador">
+                                            <span>0</span>
+                                        </div>
+                                        <div class="icone" id="quantidade-menos">
+                                            <span>-</span>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="ce">Peça 2</td>
+                                <td class="ce2">Mármore Branco</td>
+                                <td class="cd2">
+
+                                    <div class="btn btn-quantidade" id="quantidade2">
+                                        <div class="icone" id="quantidade-mais2">
+                                            <span>+</span>
+                                        </div>
+                                        <div class="contador">
+                                            <span>0</span>
+                                        </div>
+                                        <div class="icone" id="quantidade-menos2">
+                                            <span>-</span>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="ce">Peça 3</td>
+                                <td class="ce2">Preto Absoluto</td>
+                                <td class="cd2">
+
+                                    <div class="btn btn-quantidade" id="quantidade3">
+                                        <div class="icone" id="quantidade-mais3">
+                                            <span>+</span>
+                                        </div>
+                                        <div class="contador">
+                                            <span>0</span>
+                                        </div>
+                                        <div class="icone" id="quantidade-menos3">
+                                            <span>-</span>
+
+                                </td>
+                            </tr>
+
+                        </table>
+
+                        <a class="botao_finalizar" href="finalizar-compra.html"> Finalizar compra</a>
             
-                    <script src="js/jquery-3.2.1.min.js"></script>
-                    <script src="js/quantidade.js"></script>
 
 
-                    </div>
-                </body>
-                </html>
+
+
+                        </div>
+
+
+                        <div class="div_rodape2 div_container">
+                            Avenida Dr. Manoel L Soares, 136 - Lot. Parque da Piranha - Ceará - Brasil - CEP 61700-000
+                            <br> 3362-3153 61700-000
+                            <br> marcosjames_01@hotmail.com
+
+
+
+                        </div>
+
+
+
+
+
+                        </body>
+
+</html>
